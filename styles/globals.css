@@ -34,5 +34,14 @@ a {
   transform: translateZ(0);
 }
 .parallax-layer-background {
-  transform: translateZ(-2px) scale(10);
+  transform: translateZ(-2px) scale(12);
 }
+
+
+@media(max-width:767px) {
+  .parallax {
+    perspective: 1px;
+    height: calc(100vh - 56px);
+  }
+}
+

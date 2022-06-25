@@ -4,12 +4,12 @@ import Card from '../components/card';
 export default function Home() {
 
   const data =[
-    {"name":"Hello world!", "image":"/images/logo1.png"},
-    {"name":"Hello world!", "image":"/images/logo2.png"},
-    {"name":"Hello world!", "image":"/images/logo3.png"},
-    {"name":"Hello world!", "image":"/images/logo4.png"},
-    {"name":"Hello world!", "image":"/images/logo5.png"},
-    {"name":"Hello world!", "image":"/images/logo1.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo1.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo2.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo3.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo4.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo5.png"},
+    {"name":"Hello world!", "image":"/nextjslivesite/images/logo1.png"},
   ];
 
 

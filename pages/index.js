@@ -23,7 +23,7 @@ export default function Home() {
       
         <div className='parallax-layer parallax-layer-base'>
 
-          <div className={`lg:container mx-auto px-5 pt-14 overflow-x-hidden  `}>
+          <div className={`lg:container mx-auto px-5 pt-14 overflow-x-hidden`}>
             {data.map(function(val, index){
                 return (
                   <Card key={index} isOdd={index %2 === 0} image={val.image} name={val.name}/>

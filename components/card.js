@@ -26,23 +26,15 @@ export default function Card({isOdd, image, name}) {
   }, [control, inView]);
 
 
-
-
-  
-
-
   return (
 
     <div className={`flex items-center  mb-14 ${isOdd ? "md:flex-row-reverse flex-col": "flex-col md:flex-row" }`}>
 
-        {/* image section */}
         <motion.div ref={ref} variants={isOdd ? rightVariant:leftVariant} initial="hidden" animate={control}
-        className='bg-slate-100 rounded-lg shadow-xl w-60 h-60 mr-auto md:w-80 md:h-80 shadow-slate-200'>
-            <img className='opacity-80 rounded-lg object-cover w-full h-full' src={image} alt="My Logo" />
+        className='mr-auto rounded-lg shadow-xl bg-slate-100 w-60 h-60 md:w-80 md:h-80 shadow-slate-200'>
+            <img className='object-cover w-full h-full rounded-lg opacity-80' src={image} alt="My Logo" />
         </motion.div>
 
-
-        {/* text section */}
         <motion.div ref={ref} variants={isOdd ? leftVariant:rightVariant} initial="hidden" animate={control}
          className={`flex-1 ${isOdd ? "md:pr-16": "md:pl-16"} pt-10 md:pt-0`}>
 
@@ -50,7 +42,7 @@ export default function Card({isOdd, image, name}) {
                 {name}
             </h1>
 
-            <p className='pt-5 text-slate-600 text-sm'>
+            <p className='pt-5 text-sm text-slate-600'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Cras bibendum libero ut orci tincidunt mattis. Duis fermentum,
                 massa ac eleifend semper, diam magna eleifend metus, 

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,22 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.btn-primary{
+  @apply mt-4 bg-sky-600 rounded px-5 py-2 text-white text-sm  shadow-xl shadow-sky-200;
+}
+
+.parallax {
+  perspective: 1px;
+  height: calc(100vh - 73px);
+}
+.parallax-layer {
+  @apply absolute top-0 right-0 left-0 bottom-0;
+}
+.parallax-layer-base {
+  transform: translateZ(0);
+}
+.parallax-layer-background {
+  transform: translateZ(-2px) scale(9);
 }

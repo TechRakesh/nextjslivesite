@@ -21,7 +21,8 @@ export default function Header() {
                 <Link href="/" >
                     <motion.a variants={logoVariant} initial="hidden" animate="visible"
                     className="relative inline-block w-20 h-20 p-3 -mb-10 bg-orange-500 shadow-lg md:w-24 md:h-24 shadow-orange-100 "> 
-                        <img className=' w-7 md:w-10 mx-auto object-cover brightness-[1000]' src={'/nextjslivesite/images/logo.png'} alt="My Logo" />
+                        <img className='w-7 md:w-10 mx-auto object-cover brightness-[1000]' 
+                        src={`/nextjslivesite/images/logo.png`} alt="My Logo" />
                         <p className="mt-2 text-xs font-semibold text-white md:text-sm">Your Logo</p>
                     </motion.a>
                 </Link>

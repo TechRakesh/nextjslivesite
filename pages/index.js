@@ -19,7 +19,7 @@ export default function Home() {
 
 
       <div className={`parallax overflow-y-auto overflow-x-hidden`}>
-        <div className={`bg-[url('/images/bg-image.jpg')] bg-cover parallax-layer parallax-layer-background`}></div>
+        <div className={`bg-[url('/nextjslivesite/images/bg-image.jpg')] bg-cover parallax-layer parallax-layer-background`}></div>
       
         <div className='parallax-layer parallax-layer-base'>
 
